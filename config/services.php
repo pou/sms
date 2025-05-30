@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'sms' => [
+        'base_url' => env('SMS_BASE_URL', 'https://postback-sms.com/api/'),
+        'token' => env('SMS_TOKEN'),
+    ],
 ];
